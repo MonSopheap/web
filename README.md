@@ -68,3 +68,48 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+# CREATE PROJECT
+- npx create-react-app my-react-app
+- cd my-react-app
+- npm start
+- https://www.w3schools.com/react/react_getstarted.asp
+
+
+
+# REACT SNIPPETS
+- clg = console.log("Object")
+- rfce = Create Function and Import React
+- rpce = Create PureComponent and Import
+- rce = Create Component Render
+- rconst = Create constructor
+
+### PACKAGE IS INSTALLED
+# FOR HTTP REQUEST INSTALL
+- npm install axios
+
+### INSTALL ROUTE
+- npm install react-router-dom
+
+# ICON REACT JS
+- npm install react-icons --save
+
+# headlessui
+- npm i @headlessui/react
+
+# INSTALL TAILWIND CSS
+https://tailwindcss.com/docs/installation
+
+npm install -D tailwindcss
+npx tailwindcss init
+
+# INSTALL SCSS, for Set style with scss
+- npm install node-sass
+- npm install node-sass --legacy-peer-deps
+
+# REACT FEATHER
+- npm i react-feather
+- https://www.npmjs.com/package/react-feather
+- https://feathericons.com/
