@@ -13,7 +13,7 @@ import Pricing from './pages/pricing';
 function App() {
   return (
     <>
-      <BrowserRouter basename='/home'>
+      <BrowserRouter basename='/web'>
         <MainLayout>
           <Routes>
             <Route path='/home' element={<Home />}></Route>
