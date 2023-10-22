@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/web/static/css/main.5e4cbc1e.css",
-    "main.js": "/web/static/js/main.6c22eea3.js",
+    "main.js": "/web/static/js/main.bfee5be6.js",
     "static/js/787.c6006e9a.chunk.js": "/web/static/js/787.c6006e9a.chunk.js",
     "static/media/KantumruyPro-Regular.ttf": "/web/static/media/KantumruyPro-Regular.66693f623c897823fa1e.ttf",
     "static/media/google.svg": "/web/static/media/google.b596752253d8523d78d4a2691564e4b4.svg",
@@ -12,11 +12,11 @@
     "static/media/linkedin.svg": "/web/static/media/linkedin.118c1b5e826b3fec5a303413266a78f8.svg",
     "static/media/facebook.svg": "/web/static/media/facebook.d7c0b4e9ce034fb8d8f719d7fbc5fd90.svg",
     "main.5e4cbc1e.css.map": "/web/static/css/main.5e4cbc1e.css.map",
-    "main.6c22eea3.js.map": "/web/static/js/main.6c22eea3.js.map",
+    "main.bfee5be6.js.map": "/web/static/js/main.bfee5be6.js.map",
     "787.c6006e9a.chunk.js.map": "/web/static/js/787.c6006e9a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5e4cbc1e.css",
-    "static/js/main.6c22eea3.js"
+    "static/js/main.bfee5be6.js"
   ]
 }
