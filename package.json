@@ -1,4 +1,5 @@
 {
+  "homepage": "https://monsopheap.github.io/web",
   "name": "web-app",
   "version": "0.1.0",
   "private": true,
@@ -22,7 +23,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "dev": "tailwindcss -i ./src/input.css -o ./dist/style.css --watch"
+    "dev": "tailwindcss -i ./src/input.css -o ./dist/style.css --watch",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -43,6 +46,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.0.0",
     "tailwindcss": "^3.3.3"
   }
 }

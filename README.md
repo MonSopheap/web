@@ -113,3 +113,12 @@ npx tailwindcss init
 - npm i react-feather
 - https://www.npmjs.com/package/react-feather
 - https://feathericons.com/
+
+# DEPLOY IN GITHUB
+- npm install gh-pages --save-dev
+- https://whataboutcoding.com/host-react-js-website-live-on-the-internet-using-github/
+
+# REFRESH IN GITHUB PAGE NOT FOUND
+- Search: spa github page
+- https://github.com/rafgraph/spa-github-pages
+- https://www.youtube.com/watch?v=fuGu-Ponjf8
