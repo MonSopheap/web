@@ -13,13 +13,13 @@ import Pricing from './pages/pricing';
 function App() {
   return (
     <>
-      <BrowserRouter basename='/web'>
+      <BrowserRouter basename='/'>
         <MainLayout>
           <Routes>
-            <Route path='/home' element={<Home />}></Route>
-            <Route path='/Courses' element={<Courses />}></Route>
-            <Route path='/about-us' element={<AboutUs />}></Route>
-            <Route path='/pricing' element={<Pricing />}></Route>
+            <Route path='/' element={<Home />}></Route>
+            <Route path='Courses' element={<Courses />}></Route>
+            <Route path='about-us' element={<AboutUs />}></Route>
+            <Route path='pricing' element={<Pricing />}></Route>
           </Routes>
         </MainLayout>
       </BrowserRouter>
