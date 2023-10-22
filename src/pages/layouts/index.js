@@ -12,7 +12,7 @@ function MainLayout({ children }) {
     const menuList = [
         {
             name: "ទំព័រដើម",
-            route: '/home',
+            route: '/',
         },
         {
             name: "មេរៀន",
