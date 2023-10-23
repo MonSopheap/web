@@ -7,7 +7,7 @@ const styles = {
   heading4: "font-kantumruyPro text-[20px] text-white w-full",
   heading5: "font-kantumruyPro text-[18px] text-white w-full",
   heading6: "font-kantumruyPro text-[16px] text-white w-full",
-  paragraph: "font-kantumruyPro text-white text-[18px] leading-[30.8px]",
+  paragraph: "font-kantumruyPro text-[18px] text-white  leading-[30.8px]",
 
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",
@@ -19,7 +19,7 @@ const styles = {
   marginX: "sm:mx-16 mx-6",
   marginY: "sm:my-16 my-6",
 
-  buttonDefault: "flex m-auto px-4 py-3 items-center rounded-md text-white bg-[#1075bc] hover:bg-[#0c65a4]"
+  buttonDefault: "flex m-auto items-center px-4 py-3 items-center rounded-md text-white bg-[#1075bc] hover:bg-[#0c65a4]"
 };
 
 export const layout = {

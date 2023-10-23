@@ -48,15 +48,9 @@ function MainLayout({ children }) {
                                 <div className="hidden md:block">
                                     <div className="ml-5 flex items-baseline space-x-1">
                                         {
-                                            menuList.map((menu) => {
-                                                return (
-                                                    <>
-                                                        <a key={menu.id} href='#' onClick={() => navigate(`${menu.route}`)} className={`${(pathname === menu.route) ? "bg-[#013340]" : ""} hover:bg-gray-800 text-white px-5 py-2 rounded-md text-base font-kantumruyPro`}>
-                                                            {menu.name}
-                                                        </a>
-                                                    </>
-                                                )
-                                            })
+                                            menuList.map((menu) => <a key={menu.id} href='#' onClick={() => navigate(`${menu.route}`)} className={`${(pathname === menu.route) ? "bg-[#013340]" : ""} hover:bg-gray-800 text-white px-5 py-2 rounded-md text-base font-kantumruyPro`}>
+                                                {menu.name}
+                                            </a>)
                                         }
                                     </div>
                                 </div>

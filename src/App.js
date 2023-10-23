@@ -14,7 +14,7 @@ import PageNotFound from './pages/page-not-found';
 function App() {
   return (
     <>
-      <BrowserRouter basename='/web'>
+      <BrowserRouter>
         <MainLayout>
           <Routes>
             <Route path='/' element={<Home />}></Route>

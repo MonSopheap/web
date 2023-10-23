@@ -5,9 +5,9 @@ import styles from '../Style'
 function ButtonIcon({ handleClick, children, text, buttonType, ...props }) {
     return (
         <>
-            <button type={buttonType || "button"} onClick={handleClick}
+            <button type={buttonType ? buttonType : "button"} onClick={handleClick}
                 className={`${styles.buttonDefault}`} {...props}>
-                <div className="mr-2">{children ? children : <Facebook size={20} />}</div>
+                <span style={{ marginRight: "8px" }}>{children ? children : <Facebook size={20} />}</span>
                 <span className='px-1.5 font-kantumruyPro'>{text ? text : `Facebook`}</span>
             </button>
         </>

@@ -6,7 +6,7 @@ function Pricing() {
         <>
             <section className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col`}>
                 <div className="flex-1 flex flex-col text-center">
-                    <h3 className={`${styles.heading3} font-normal p-0`}>តម្លៃសិក្សា</h3>
+                    <h1 className={`${styles.heading1} font-normal font-poppins`}>The Ultimate Platform</h1>
                 </div>
             </section>
         </>
