@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom';
 import styles, { layout } from '../../Style';
 import { logo } from "../../assets/images";
-import Footer from '../footer';
 
 function MainLayout({ children }) {
     const [isOpen, setIsOpen] = useState(false);
@@ -11,18 +10,22 @@ function MainLayout({ children }) {
 
     const menuList = [
         {
+            id: 1,
             name: "ទំព័រដើម",
             route: '/',
         },
         {
+            id: 2,
             name: "មេរៀន",
             route: '/courses',
         },
         {
+            id: 3,
             name: "អំពីពួកយើង",
             route: '/about-us',
         },
         {
+            id: 4,
             name: "តម្លៃ",
             route: '/pricing',
         },
@@ -45,10 +48,10 @@ function MainLayout({ children }) {
                                 <div className="hidden md:block">
                                     <div className="ml-5 flex items-baseline space-x-1">
                                         {
-                                            menuList.map((menu, index) => {
+                                            menuList.map((menu) => {
                                                 return (
                                                     <>
-                                                        <a href='#' key={index} onClick={() => navigate(`${menu.route}`)} className={`${(pathname === menu.route) ? "bg-[#013340]" : ""} hover:bg-gray-800 text-white px-5 py-2 rounded-md text-base font-kantumruyPro`}>
+                                                        <a key={menu.id} href='#' onClick={() => navigate(`${menu.route}`)} className={`${(pathname === menu.route) ? "bg-[#013340]" : ""} hover:bg-gray-800 text-white px-5 py-2 rounded-md text-base font-kantumruyPro`}>
                                                             {menu.name}
                                                         </a>
                                                     </>
@@ -109,7 +112,6 @@ function MainLayout({ children }) {
                     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
                         <div className={`${styles.boxWidth}`}>
                             {children}
-                            <Footer />
                         </div>
                     </div>
                 </div>

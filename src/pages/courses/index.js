@@ -2,11 +2,12 @@ import React from 'react'
 import styles from '../../Style'
 import { FaRegAddressCard } from 'react-icons/fa';
 import ButtonIcon from '../../components/ButtonIcon';
+import Footer from '../footer';
 
 function Courses() {
     return (
         <>
-            <section id="course">
+            <section>
                 <div className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} flex-col`}>
                     <div className="flex-1 flex flex-col text-center">
                         <h2 className={`${styles.heading2} font-normal p-0`}>រងចាំអ្វីទៀតចាប់ផ្តើមពេលនេះ ដើម្បីអភិវឌ្ឍនជំនាញរបស់អ្នក​!</h2>
@@ -42,6 +43,7 @@ function Courses() {
                         </div>
                     </div>
                 </div>
+                <Footer />
             </section>
         </>
     )
