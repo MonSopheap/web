@@ -22,22 +22,22 @@ function Courses() {
                 <div className='w-full'>
                     <div className="grid gap-5 justify-evenly grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3">
                         <div className="grid-item">
-                            <div className="bg-[#013340] h-[250px] w-full ring-yello-100  rounded-md box-shadow">
+                            <div className="bg-[#013340] h-[250px] w-full hover:ring-1 hover:ring-[#258bd2] cursor-pointer rounded-md box-shadow">
 
                             </div>
                         </div>
                         <div className="grid-item">
-                            <div className="bg-[#013340] h-[250px] w-full rounded-md box-shadow">
+                            <div className="bg-[#013340] h-[250px] w-full hover:ring-1 hover:ring-[#258bd2] cursor-pointer rounded-md box-shadow">
 
                             </div>
                         </div>
                         <div className="grid-item">
-                            <div className="bg-[#013340] h-[250px] w-full rounded-md box-shadow">
+                            <div className="bg-[#013340] h-[250px] w-full hover:ring-1 hover:ring-[#258bd2] cursor-pointer rounded-md box-shadow">
 
                             </div>
                         </div>
                         <div className="grid-item">
-                            <div className="bg-[#013340] h-[250px] w-full rounded-md box-shadow">
+                            <div className="bg-[#013340] h-[250px] w-full hover:ring-1 hover:ring-[#258bd2] cursor-pointer rounded-md box-shadow">
 
                             </div>
                         </div>

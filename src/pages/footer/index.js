@@ -3,7 +3,9 @@ import { socialMedia } from '../../constants'
 
 const Footer = () => (
     <section className={`${styles.flexCenter} ${styles.paddingY} flex-col bg-primary`}>
+
         <div className="w-full flex justify-between items-center md:flex-row flex-col">
+
             <p className="font-poppins font-normal text-center text-[18px] leading-[27px] text-white">
                 Copyright Ⓒ 2023 Mon Sopheap. All Rights Reserved.
             </p>

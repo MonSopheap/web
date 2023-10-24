@@ -1,33 +1,46 @@
 import React from 'react'
-import { logo } from '../../assets/images'
 import styles from '../../Style'
+import { student, student1, student2, student3, st, st1, st2 } from "../../assets/photos"
 
 function Testimonial() {
     const cardList = [
         {
             id: 1,
-            name: "គីម ម៉ាលី",
-            image: logo,
+            name: "ហេង សុម៉ាវត្តី",
+            image: st,
             description: "ការបង្រៀនគឺលម្អិតពីមូលដ្ឋានគ្រឹះទៅ សិស្សងាយយល់ ងាយចាប់បាន។ មានទំនុកចិត្ត រៀនបណ្តើរអនុវត្តបណ្តើរ។"
         },
         {
             id: 2,
             name: "សាំង ចាន់ឌីន",
-            image: logo,
-            description: "ខ្ញុំអត់មាន Basic ពីកូដទេតែពេលបានចូលរៀនវគ្គនេះ ខ្ញុំគឺយល់បានច្បាស់តែម្តង។"
+            image: student,
+            description: "ការបង្រៀនគឺលម្អិតពីមូលដ្ឋានគ្រឹះទៅ សិស្សងាយយល់ ងាយចាប់បាន។ មានទំនុកចិត្ត រៀនបណ្តើរអនុវត្តបណ្តើរ។"
         },
         {
             id: 3,
-            name: "សួន សំបូរ",
-            image: logo,
-            description: "និស្សិតមានភាពងាយស្រួលក្នុងការសិក្សានឹងមានការពន្យល់ជាភាសាខ្មែរដែលធ្វើអោយអ្នកសិក្សាដែលខ្សោយភាសាអង់គ្លេសមានភាពងាយស្រួលក្នុងការរៀន។"
+            name: "គីម ម៉ាលី",
+            image: st1,
+            description: "ខ្ញុំអត់មាន Basic ពីកូដទេតែពេលបានចូលរៀនជាមួយពួកគាត់ ខ្ញុំគឺយល់បានច្បាស់តែម្តង។"
         },
         {
             id: 4,
-            name: "ហេង សុម៉ាវត្តី",
-            image: logo,
-            description: "និស្សិតមានភាពងាយស្រួលក្នុងការសិក្សានឹងមានការពន្យល់ជាភាសាខ្មែរដែលធ្វើអោយអ្នកសិក្សាដែលខ្សោយភាសាអង់គ្លេសមានភាពងាយស្រួលក្នុងការរៀន។"
-        }
+            name: "សួន សំបូរ",
+            image: student2,
+            description: "ការបង្រៀនគឺលម្អិតពីមូលដ្ឋានគ្រឹះទៅ សិស្សងាយយល់ ងាយចាប់បាន។ មានទំនុកចិត្ត រៀនបណ្តើរអនុវត្តបណ្តើរ។"
+        },
+        {
+            id: 5,
+            name: "ហៀង ឆាយរ៉ាត់់",
+            image: student3,
+            description: "ការបង្រៀនគឺលម្អិតពីមូលដ្ឋានគ្រឹះទៅ សិស្សងាយយល់ ងាយចាប់បាន។ មានទំនុកចិត្ត រៀនបណ្តើរអនុវត្តបណ្តើរ។"
+        },
+        {
+            id: 6,
+            name: "ហេង សុវ៉ាន់ឆៃ",
+            image: st2,
+            description: "ការបង្រៀនគឺលម្អិតពីមូលដ្ឋានគ្រឹះទៅ សិស្សងាយយល់ ងាយចាប់បាន។ មានទំនុកចិត្ត រៀនបណ្តើរអនុវត្តបណ្តើរ។"
+        },
+
     ];
     return (
         <>
@@ -38,14 +51,16 @@ function Testimonial() {
                         បង្រៀនដោយអ្នកមានបទពិសោធន៍លើការងារស្រាប់ និងអនុវត្តជាមួយ Project ផ្លាល់។
                     </p>
                 </div>
-                <div className="grid gap-8 justify-evenly grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4">
+                <div className="grid gap-8 xs:gap-3 justify-evenly grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4">
                     {
                         cardList.map((obj) => (<div key={obj.id} className="grid-item">
-                            <div className="flex max-w-5xl min-h-[350px] mx-auto">
+                            <div className="flex max-w-5xl min-h-[350px] max-h-[350px] mx-auto">
                                 <div className='bg-secondary rounded-xl p-8'>
-                                    <img src={obj.image} alt="..." className="h-20 mb-2 mx-auto" />
+                                    <div className='relative w-24 h-24 overflow-hidden mx-auto mb-3'>
+                                        <img src={obj.image} alt="..." className="rounded-full shadow-sm" />
+                                    </div>
                                     <h3 className={`${styles.heading3} uppercase text-white text-center`}>{obj.name}</h3>
-                                    <p className={`${styles.paragraph} text-md leading-3 my-3 font-light opacity-100`}>
+                                    <p className={`${styles.paragraph} leading-3 my-3 font-light opacity-100`}>
                                         {obj.description}
                                     </p>
 

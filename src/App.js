@@ -21,6 +21,7 @@ function App() {
             <Route path='courses' element={<Courses />}></Route>
             <Route path='about-us' element={<AboutUs />}></Route>
             <Route path='pricing' element={<Pricing />}></Route>
+            <Route path='terms-and-conditions' element={<Pricing />}></Route>
             {/* 👇️ only match this when no other routes match */}
             <Route path="*" element={<PageNotFound />} />
           </Routes>
