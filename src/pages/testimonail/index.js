@@ -21,25 +21,31 @@ function Testimonial() {
             name: "សួន សំបូរ",
             image: logo,
             description: "និស្សិតមានភាពងាយស្រួលក្នុងការសិក្សានឹងមានការពន្យល់ជាភាសាខ្មែរដែលធ្វើអោយអ្នកសិក្សាដែលខ្សោយភាសាអង់គ្លេសមានភាពងាយស្រួលក្នុងការរៀន។"
+        },
+        {
+            id: 4,
+            name: "ហេង សុម៉ាវត្តី",
+            image: logo,
+            description: "និស្សិតមានភាពងាយស្រួលក្នុងការសិក្សានឹងមានការពន្យល់ជាភាសាខ្មែរដែលធ្វើអោយអ្នកសិក្សាដែលខ្សោយភាសាអង់គ្លេសមានភាពងាយស្រួលក្នុងការរៀន។"
         }
     ];
     return (
         <>
             <div className='w-full'>
-                <div className='text-center'>
+                <div className='text-center mb-6'>
                     <h2 className={`${styles.heading2}`}>ការវាយតម្លៃរបស់សិស្សនិសិ្សត</h2>
-                    <p className={`${styles.paragraph} mt-3 mb-5`}>
+                    <p className={`${styles.paragraph} mt-3`}>
                         បង្រៀនដោយអ្នកមានបទពិសោធន៍លើការងារស្រាប់ និងអនុវត្តជាមួយ Project ផ្លាល់។
                     </p>
                 </div>
-                <div className="grid gap-8 justify-evenly grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3">
+                <div className="grid gap-8 justify-evenly grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4">
                     {
                         cardList.map((obj) => (<div key={obj.id} className="grid-item">
                             <div className="flex max-w-5xl min-h-[350px] mx-auto">
                                 <div className='bg-secondary rounded-xl p-8'>
                                     <img src={obj.image} alt="..." className="h-20 mb-2 mx-auto" />
                                     <h3 className={`${styles.heading3} uppercase text-white text-center`}>{obj.name}</h3>
-                                    <p className={`${styles.paragraph} leading-3 my-3 font-light opacity-100`}>
+                                    <p className={`${styles.paragraph} text-md leading-3 my-3 font-light opacity-100`}>
                                         {obj.description}
                                     </p>
 

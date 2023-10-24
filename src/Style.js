@@ -1,5 +1,5 @@
 const styles = {
-  boxWidth: "xl:max-w-[1280px] w-full",
+  boxWidth: "md:max-w-[1200px] lg:max-w-[1200px] xl:max-w-[1280px] w-full",
 
   heading1: "font-kantumruyPro text-[41px] text-white w-full",
   heading2: "font-kantumruyPro text-[32px] text-white w-full",
@@ -26,7 +26,6 @@ export const layout = {
   mainLayout: "bg-primary w-full overflow-hidden",
   navBar: "w-full fixed top-0 left-0 bg-primary height-[64px] z-[9999]",
   mainContent: "w-full h-full mt-[64px] bg-primary",
-
 };
 
 export default styles;
