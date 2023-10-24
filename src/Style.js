@@ -24,7 +24,7 @@ const styles = {
 
 export const layout = {
   mainLayout: "bg-primary w-full overflow-hidden",
-  navBar: "w-full fixed top-0 left-0 bg-primary height-[64px] z-[9999]",
+  navBar: "w-full fixed top-0 left-0 bg-primary height-[64px] z-[9999] shadow-lg",
   mainContent: "w-full h-full mt-[64px] bg-primary",
 };
 

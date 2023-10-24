@@ -34,10 +34,10 @@ function MainLayout({ children }) {
     return (
         <>
             <main className={`${layout.mainLayout}`}>
-                <nav className={`${layout.navBar} shadow-lg`}>
-                    <div className={`${styles.paddingX}`}>
+                <nav className={`${layout.navBar}`}>
+                    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
                         <div className={`${styles.boxWidth}`}>
-                            <div className="flex items-center justify-between h-16">
+                            <div className="flex justify-between items-center  h-16">
                                 <div className="flex items-center">
                                     <div className="flex-shrink-0">
                                         <img
@@ -56,7 +56,7 @@ function MainLayout({ children }) {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="-mr-2 flex md:hidden">
+                                <div className="mr-2 flex md:hidden">
                                     <button
                                         onClick={() => setIsOpen(!isOpen)}
                                         type="button"
