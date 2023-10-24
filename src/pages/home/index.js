@@ -3,6 +3,7 @@ import Footer from '../footer'
 import styles from '../../Style'
 import ButtonIcon from '../../components/ButtonIcon'
 import { BsArrowRightCircle } from 'react-icons/bs';
+import Testimonial from '../testimonail';
 
 function Home() {
     return (
@@ -33,6 +34,7 @@ function Home() {
                     </ButtonIcon>
                 </div>
             </section>
+            <Testimonial />
             <Footer />
         </>
     )
