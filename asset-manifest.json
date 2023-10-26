@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/web/static/css/main.4550502a.css",
-    "main.js": "/web/static/js/main.e86ccd59.js",
+    "main.js": "/web/static/js/main.69e24513.js",
     "static/js/787.c6006e9a.chunk.js": "/web/static/js/787.c6006e9a.chunk.js",
     "static/media/st.png": "/web/static/media/st.2c4071ab040a99b9a6f0.png",
     "static/media/st1.png": "/web/static/media/st1.ae537851d6816f37a47d.png",
@@ -9,23 +9,23 @@
     "static/media/st.jpg": "/web/static/media/st.64190d37bc5ef932e318.jpg",
     "static/media/KantumruyPro-Regular.ttf": "/web/static/media/KantumruyPro-Regular.66693f623c897823fa1e.ttf",
     "static/media/st3.jpg": "/web/static/media/st3.3890bf19e8f73a7ab51c.jpg",
+    "static/media/logo.png": "/web/static/media/logo.6378328b7dc38af5dca4.png",
     "static/media/st1.jpg": "/web/static/media/st1.3275aed136383d6da752.jpg",
     "static/media/st4.jpg": "/web/static/media/st4.ff5283e0e5077ddd0740.jpg",
     "static/media/st5.jpg": "/web/static/media/st5.e22a5ceb5c39610a1974.jpg",
     "static/media/st2.jpg": "/web/static/media/st2.0abc87a5ce7412f2d995.jpg",
     "static/media/google.svg": "/web/static/media/google.b596752253d8523d78d4a2691564e4b4.svg",
     "static/media/instagram.svg": "/web/static/media/instagram.c6b8cb38e27fa08147a5848badee6975.svg",
-    "static/media/logo.svg": "/web/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/web/index.html",
     "static/media/twitter.svg": "/web/static/media/twitter.770c4fec194e1e46d63c494c3abf339c.svg",
     "static/media/linkedin.svg": "/web/static/media/linkedin.118c1b5e826b3fec5a303413266a78f8.svg",
     "static/media/facebook.svg": "/web/static/media/facebook.d7c0b4e9ce034fb8d8f719d7fbc5fd90.svg",
     "main.4550502a.css.map": "/web/static/css/main.4550502a.css.map",
-    "main.e86ccd59.js.map": "/web/static/js/main.e86ccd59.js.map",
+    "main.69e24513.js.map": "/web/static/js/main.69e24513.js.map",
     "787.c6006e9a.chunk.js.map": "/web/static/js/787.c6006e9a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4550502a.css",
-    "static/js/main.e86ccd59.js"
+    "static/js/main.69e24513.js"
   ]
 }
