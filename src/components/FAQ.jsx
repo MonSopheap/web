@@ -31,7 +31,7 @@ function FAQ() {
                 {
                     faqList.map((data, index) => (
                         <div className="grid-items">
-                            <div className="w-full h-full box-content overflow-hidden bg-secondary rounded-md select-none">
+                            <div className="w-full h-full overflow-hidden bg-secondary rounded-md select-none">
                                 <div className="flex justify-between items-center px-5 pt-5 pb-4">
                                     <h1 className='text-white text-xl font-kantumruyPro'>{data.title}</h1>
                                     <AiOutlineQuestionCircle className="text-2xl text-blue-500" />

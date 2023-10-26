@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../../Style'
-import { student, student1, student2, student3, st, st1, st2 } from "../../assets/photos"
+import { student, student2, student3, st, st1, st2 } from "../../assets/profiles"
 
 function Testimonial() {
     const cardList = [

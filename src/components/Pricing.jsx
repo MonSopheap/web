@@ -82,6 +82,7 @@ const Pricing = () => {
                                         data.isBestSeller && <span className="absolute -top-4 right-8 bg-[#ffc403] py-1 px-3 shadow-lg text-md font-semibold rounded-full ml-1" style={{ "boxShadow": "rgb(255, 196, 3) 0px 4px 50px -5px" }}>
                                             Bestseller
                                         </span>
+
                                     }
                                     <div className="p-5 text-center">
                                         <h1 className="mb-2 text-2xl font-normal text-white">{data.name}</h1>
