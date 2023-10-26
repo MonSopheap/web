@@ -1,5 +1,5 @@
-import styles from "../../Style";
-import { socialMedia } from '../../constants'
+import styles from "../Style";
+import { socialMedia } from '../constants'
 
 const Footer = () => (
     <section className={`${styles.flexCenter} ${styles.paddingY} flex-col bg-primary`}>

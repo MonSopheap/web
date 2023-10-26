@@ -2,7 +2,7 @@ import React from 'react'
 import styles from '../../Style'
 import { FaRegAddressCard } from 'react-icons/fa';
 import ButtonIcon from '../../components/ButtonIcon';
-import Footer from '../footer';
+import Footer from '../../components/Footer';
 
 function Courses() {
     return (
@@ -20,7 +20,7 @@ function Courses() {
                 </div>
 
                 <div className='w-full'>
-                    <div className="grid gap-5 justify-evenly grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3">
+                    <div className="grid gap-8 justify-evenly grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3">
                         <div className="grid-item">
                             <div className="bg-[#013340] h-[250px] w-full hover:ring-1 hover:ring-[#258bd2] cursor-pointer rounded-md box-shadow">
 

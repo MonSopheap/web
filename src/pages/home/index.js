@@ -1,9 +1,10 @@
 import React from 'react'
-import Footer from '../footer'
 import styles from '../../Style'
 import ButtonIcon from '../../components/ButtonIcon'
 import { BsArrowRightCircle } from 'react-icons/bs';
 import Testimonial from '../testimonail';
+import Pricing from '../../components/Pricing';
+import Footer from '../../components/Footer';
 
 function Home() {
     return (
@@ -35,6 +36,7 @@ function Home() {
                 </div>
             </section>
             <Testimonial />
+            <Pricing />
             <Footer />
         </>
     )

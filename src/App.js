@@ -1,5 +1,4 @@
 import './App.css';
-import MainLayout from './pages/layouts';
 import {
   BrowserRouter,
   Routes,
@@ -8,8 +7,9 @@ import {
 import Home from './pages/home';
 import Courses from './pages/courses';
 import AboutUs from './pages/about-us';
-import Pricing from './pages/pricing';
 import PageNotFound from './pages/page-not-found';
+import MainLayout from './layouts';
+import Pricing from './components/Pricing';
 
 function App() {
   return (

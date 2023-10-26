@@ -4,9 +4,6 @@ const styles = {
   heading1: "font-kantumruyPro text-[41px] text-white w-full",
   heading2: "font-kantumruyPro text-[32px] text-white w-full",
   heading3: "font-kantumruyPro text-[24px] text-white w-full",
-  heading4: "font-kantumruyPro text-[20px] text-white w-full",
-  heading5: "font-kantumruyPro text-[18px] text-white w-full",
-  heading6: "font-kantumruyPro text-[16px] text-white w-full",
   paragraph: "font-kantumruyPro text-[18px] text-white  leading-[30.8px]",
 
   flexCenter: "flex justify-center items-center",
@@ -19,7 +16,7 @@ const styles = {
   marginX: "sm:mx-16 mx-6",
   marginY: "sm:my-16 my-6",
 
-  buttonDefault: "flex m-auto items-center px-4 py-3 items-center rounded-md text-white bg-[#1075bc] hover:bg-[#0c65a4]"
+  buttonDefault: "flex m-auto items-center px-4 py-2 items-center rounded-md text-white bg-[#1075bc] hover:bg-[#0c65a4]"
 };
 
 export const layout = {

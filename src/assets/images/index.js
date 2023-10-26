@@ -11,5 +11,5 @@ export {
   instagram,
   linkedin,
   twitter,
-  logo
+  logo,
 };
