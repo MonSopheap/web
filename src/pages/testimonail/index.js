@@ -44,7 +44,7 @@ function Testimonial() {
     ];
     return (
         <>
-            <div className='w-full'>
+            <div className='w-full mb-14'>
                 <div className='text-center mb-6'>
                     <h2 className={`${styles.heading2}`}>ការវាយតម្លៃរបស់សិស្សនិសិ្សត</h2>
                     <p className={`${styles.paragraph} mt-3`}>

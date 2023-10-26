@@ -23,7 +23,7 @@ function FAQ() {
     ];
     return (
         <>
-            <div className="text-center mb-10 pt-10">
+            <div className="text-center mb-10">
                 <h1 className="text-2xl text-white font-kantumruyPro mb-2">Frequently Asked Questions<sup className="text-yellow-500">FAQ</sup></h1>
                 <p className="text-white text-xl font-kantumruyPro">សំណួរខាងក្រោមដែលភាគច្រើនសួរមកកាន់ TnakRean.com!</p>
             </div>
