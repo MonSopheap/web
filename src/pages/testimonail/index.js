@@ -51,16 +51,16 @@ function Testimonial() {
                         បង្រៀនដោយអ្នកមានបទពិសោធន៍លើការងារស្រាប់ និងអនុវត្តជាមួយ Project ផ្លាល់។
                     </p>
                 </div>
-                <div className="grid gap-8 xs:gap-3 justify-evenly grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4">
+                <div className="grid gap-5 xs:gap-3 justify-evenly grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4">
                     {
                         cardList.map((obj) => (<div key={obj.id} className="grid-item">
-                            <div className="flex max-w-5xl min-h-[350px] max-h-[350px] mx-auto">
-                                <div className='bg-secondary rounded-xl p-8'>
+                            <div className="flex w-full h-full mx-auto">
+                                <div className='bg-secondary rounded-xl p-5'>
                                     <div className='relative w-24 h-24 overflow-hidden mx-auto mb-3'>
                                         <img src={obj.image} alt="..." className="rounded-full shadow-sm" />
                                     </div>
-                                    <h3 className={`${styles.heading3} uppercase text-white text-center`}>{obj.name}</h3>
-                                    <p className={`${styles.paragraph} leading-3 my-3 font-light opacity-100`}>
+                                    <h3 className={`uppercase text-white text-center font-kantumruyPro text-xl mb-3`}>{obj.name}</h3>
+                                    <p className={`text-white font-kantumruyPro font-light opacity-100 text-md`}>
                                         {obj.description}
                                     </p>
 

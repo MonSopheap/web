@@ -9,7 +9,7 @@ const PageNotFound = () => {
     };
 
     return (
-        <div className="h-full w-full flex">
+        <div className="h-screen w-full flex">
             <div className="flex flex-col items-center justify-center m-auto rounded-md dark:border">
                 <h1 className="font-semibold text-xl mt-2 text-white">404. That’s an error.</h1>
                 <p className="text-white">

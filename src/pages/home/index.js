@@ -3,8 +3,8 @@ import styles from '../../Style'
 import ButtonIcon from '../../components/ButtonIcon'
 import { BsArrowRightCircle } from 'react-icons/bs';
 import Testimonial from '../testimonail';
-import Pricing from '../../components/Pricing';
 import Footer from '../../components/Footer';
+import FAQ from '../../components/FAQ';
 
 function Home() {
     return (
@@ -36,7 +36,7 @@ function Home() {
                 </div>
             </section>
             <Testimonial />
-            <Pricing />
+            <FAQ />
             <Footer />
         </>
     )
