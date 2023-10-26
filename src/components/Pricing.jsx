@@ -14,10 +14,10 @@ const Pricing = () => {
             description: "សិក្សាបានរយៈពេល ១ខែ",
             details: [
                 { name: "សិក្សាមូលដ្ឋានគ្រឹះ HTML & CSS Course" },
-                { name: "សិក្សាមូលដ្ឋានគ្រឹះ HTML & CSS Course" },
-                { name: "សិក្សាមូលដ្ឋានគ្រឹះ HTML & CSS Course" },
-                { name: "សិក្សាមូលដ្ឋានគ្រឹះ HTML & CSS Course" },
-                { name: "សិក្សាមូលដ្ឋានគ្រឹះ HTML & CSS Course" },
+                { name: "សិក្សា JavaScript Course" },
+                { name: "សិក្សា JavaScript Array Methods" },
+                { name: "សិក្សា JavaScript HTML DOM" },
+                { name: "20+ Frontend Questions" },
             ]
         },
         {
@@ -27,11 +27,10 @@ const Pricing = () => {
             isBestSeller: true,
             description: "សិក្សាបានរយៈពេល ៣ខែ",
             details: [
-                { name: "សិក្សាមូលដ្ឋានគ្រឹះ HTML & CSS Course" },
-                { name: "សិក្សាមូលដ្ឋានគ្រឹះ HTML & CSS Course" },
-                { name: "សិក្សាមូលដ្ឋានគ្រឹះ HTML & CSS Course" },
-                { name: "សិក្សាមូលដ្ឋានគ្រឹះ HTML & CSS Course" },
-                { name: "សិក្សាមូលដ្ឋានគ្រឹះ HTML & CSS Course" },
+                { name: "សរុបចូលគម្រោង $8.00" },
+                { name: "សិក្សា NodeJs Course" },
+                { name: "សិក្សា React Course" },
+                { name: "សិក្សា Angular Course" },
             ]
         },
         {
@@ -41,11 +40,12 @@ const Pricing = () => {
             isBestSeller: false,
             description: "សិក្សាបានរយៈពេល ១ឆ្នាំ",
             details: [
-                { name: "សិក្សាមូលដ្ឋានគ្រឹះ HTML & CSS Course" },
-                { name: "សិក្សាមូលដ្ឋានគ្រឹះ HTML & CSS Course" },
-                { name: "សិក្សាមូលដ្ឋានគ្រឹះ HTML & CSS Course" },
-                { name: "សិក្សាមូលដ្ឋានគ្រឹះ HTML & CSS Course" },
-                { name: "សិក្សាមូលដ្ឋានគ្រឹះ HTML & CSS Course" },
+                { name: "សរុបចូលគម្រោង $8.00 & $25.00" },
+                { name: "សិក្សា Flutter, Dart Course" },
+                { name: "សិក្សា Python Course" },
+                { name: "សិក្សា Php Course" },
+                { name: "សិក្សា Laravel Course" },
+                { name: "សិក្សា PhotoShop Course" },
             ]
         },
     ]
@@ -73,11 +73,11 @@ const Pricing = () => {
                         <input type="checkbox" id="toggle" className="hidden" checked={isYearly} onChange={() => setYearly(!isYearly)} />
                     </div> */}
 
-                <div className="grid grid-cols-1 gap-8 md:gap-5 sm:gap-5 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 mt-16 ">
+                <div className="grid grid-cols-1 gap-8 md:gap-6 sm:gap-5 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 mt-16 ">
                     {
                         packages.map((data, index) => (
                             <div className="grid-item" key={index}>
-                                <div className="relative bg-[#013340] rounded-md min-h-[428px] w-full cursor-pointer hover:ring-1 ring-[#61dafb]">
+                                <div className="relative bg-[#013340] rounded-md w-full h-full cursor-pointer hover:ring-1 ring-[#61dafb]">
                                     {
                                         data.isBestSeller && <span className="absolute -top-4 right-8 bg-[#ffc403] py-1 px-3 shadow-lg text-md font-semibold rounded-full ml-1" style={{ "boxShadow": "rgb(255, 196, 3) 0px 4px 50px -5px" }}>
                                             Bestseller
@@ -104,7 +104,7 @@ const Pricing = () => {
                                             }
                                         </ul>
 
-                                        <button type="button" onClick={() => window.open("https://t.me/SopheapZz")} className="flex m-auto font-kantumruyPro items-center mt-5 px-4 py-2 rounded-md text-white bg-[#1075bc] hover:bg-[#0c65a4]">
+                                        <button type="button" onClick={() => window.open("https://t.me/abc")} className="flex m-auto font-kantumruyPro items-center mt-5 px-4 py-2 rounded-md text-white bg-[#1075bc] hover:bg-[#0c65a4]">
                                             Subscribe
                                         </button>
                                     </div>

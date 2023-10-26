@@ -10,6 +10,12 @@ import angular from "./angular.png";
 import python from "./python.png";
 import flutter from "./flutter.png";
 import photoshop from "./photoshop.png";
+import tailwind from "./tailwind.png";
+import scss from "./scss.png";
+import php from "./php.png";
+import laravel from "./laravel.png";
+import javascript from "./js.png";
+import nodejs from "./nodejs.png";
 
 export {
   google,
@@ -24,4 +30,10 @@ export {
   python,
   flutter,
   photoshop,
+  tailwind,
+  scss,
+  php,
+  laravel,
+  javascript,
+  nodejs,
 };

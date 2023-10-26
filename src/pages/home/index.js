@@ -30,7 +30,7 @@ function Home() {
                 </div>
 
                 <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
-                    <ButtonIcon handleClick={() => window.open("https://t.me/SopheapZz")} text="Get Started">
+                    <ButtonIcon handleClick={() => window.open("https://t.me/abc")} text="Get Started">
                         <BsArrowRightCircle />
                     </ButtonIcon>
                 </div>
