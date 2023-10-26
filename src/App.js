@@ -5,12 +5,12 @@ import {
   Route,
 } from 'react-router-dom';
 import Home from './pages/home';
-import Courses from './pages/courses';
 import MainLayout from './layouts';
 import Pricing from './components/Pricing';
 import PageNotFound from './components/Page404';
 import AboutUs from './components/AboutUs';
 import TermsAndConditions from './components/TermsAndConditions';
+import Courses from './components/Courses';
 
 function App() {
   return (

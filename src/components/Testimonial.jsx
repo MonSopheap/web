@@ -1,6 +1,6 @@
 import React from 'react'
-import styles from '../../Style'
-import { student, student2, student3, st, st1, st2 } from "../../assets/profiles"
+import styles from '../Style'
+import { student, student2, student3, st, st1, st2 } from "../assets/profiles"
 
 function Testimonial() {
     const cardList = [
@@ -51,7 +51,7 @@ function Testimonial() {
                         បង្រៀនដោយអ្នកមានបទពិសោធន៍លើការងារស្រាប់ និងអនុវត្តជាមួយ Project ផ្លាល់។
                     </p>
                 </div>
-                <div className="grid gap-5 xs:gap-3 justify-evenly grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4">
+                <div className="grid gap-5 xs:gap-3 justify-evenly grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4">
                     {
                         cardList.map((obj) => (<div key={obj.id} className="grid-item">
                             <div className="flex w-full h-full mx-auto">

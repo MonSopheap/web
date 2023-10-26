@@ -2,9 +2,9 @@ import React from 'react'
 import styles from '../../Style'
 import ButtonIcon from '../../components/ButtonIcon'
 import { BsArrowRightCircle } from 'react-icons/bs';
-import Testimonial from '../testimonail';
 import Footer from '../../components/Footer';
 import FAQ from '../../components/FAQ';
+import Testimonial from '../../components/Testimonial';
 
 function Home() {
     return (
