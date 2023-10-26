@@ -1,8 +1,8 @@
 import React from 'react'
 import styles from '../Style'
 import { FaRegAddressCard } from 'react-icons/fa';
-import ButtonIcon from '../components/ButtonIcon';
-import Footer from '../components/Footer';
+import Footer from './Footer';
+import ButtonIcon from "../components/ButtonIcon"
 import { scss, html, angular, reactjs, python, flutter, photoshop, tailwind, php, laravel, javascript, nodejs } from "../assets/images"
 
 function Courses() {

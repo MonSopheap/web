@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaRegAddressCard } from 'react-icons/fa'
-import ButtonIcon from './ButtonIcon'
+import ButtonIcon from '../components/ButtonIcon'
 import Footer from './Footer'
 
 function AboutUs() {

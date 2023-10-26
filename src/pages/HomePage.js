@@ -1,12 +1,12 @@
 import React from 'react'
-import styles from '../../Style'
-import ButtonIcon from '../../components/ButtonIcon'
+import styles from '../Style'
 import { BsArrowRightCircle } from 'react-icons/bs';
-import Footer from '../../components/Footer';
-import FAQ from '../../components/FAQ';
-import Testimonial from '../../components/Testimonial';
+import FAQ from './FAQ';
+import Footer from './Footer';
+import Testimonial from './Testimonial';
+import ButtonIcon from "../components/ButtonIcon"
 
-function Home() {
+function HomePage() {
     return (
         <>
             <h1 className={`${styles.heading1} font-semibold`}>
@@ -42,4 +42,4 @@ function Home() {
     )
 }
 
-export default Home
+export default HomePage

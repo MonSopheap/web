@@ -104,7 +104,7 @@ const Pricing = () => {
                                             }
                                         </ul>
 
-                                        <button type="button" onClick={() => window.open("https://t.me/abc")} className="flex m-auto font-kantumruyPro items-center mt-5 px-4 py-2 rounded-md text-white bg-[#1075bc] hover:bg-[#0c65a4]">
+                                        <button type="button" onClick={() => window.open("https://t.me/abc")} className="flex m-auto font-kantumruyPro mt-5 px-4 py-2 rounded-md text-white bg-[#1075bc] hover:bg-[#0c65a4]">
                                             Subscribe
                                         </button>
                                     </div>

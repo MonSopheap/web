@@ -4,13 +4,13 @@ import {
   Routes,
   Route,
 } from 'react-router-dom';
-import Home from './pages/home';
-import MainLayout from './layouts';
-import Pricing from './components/Pricing';
-import PageNotFound from './components/Page404';
-import AboutUs from './components/AboutUs';
-import TermsAndConditions from './components/TermsAndConditions';
-import Courses from './components/Courses';
+import AboutUs from './pages/AboutUs';
+import TermsAndConditions from './pages/TermsAndConditions';
+import MainLayout from "./layouts"
+import Courses from "./pages/Courses"
+import Pricing from "./pages/Pricing"
+import PageNotFound from "./pages/Page404"
+import HomePage from './pages/HomePage';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
       <BrowserRouter basename='/web'>
         <MainLayout>
           <Routes>
-            <Route path='' element={<Home />}></Route>
+            <Route path='' element={<HomePage />}></Route>
             <Route path='courses' element={<Courses />}></Route>
             <Route path='about-us' element={<AboutUs />}></Route>
             <Route path='pricing' element={<Pricing />}></Route>
