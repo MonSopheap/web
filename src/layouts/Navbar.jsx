@@ -34,8 +34,9 @@ function Navbar() {
         },
     ];
 
-    const handleLogin = (event) => {
-        GAEventsTracker(event.target.innerText);
+    const handleLogin = (e) => {
+        console.log(e)
+        GAEventsTracker(e.target.innerText);
         window.open("https://t.me/abc");
     }
 

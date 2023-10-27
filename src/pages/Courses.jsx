@@ -170,8 +170,8 @@ function Courses() {
                                             <div className="flex items-center justify-between">
                                                 <span className="text-3xl font-bold text-white">${item.price}</span>
                                                 <button type="button" onClick={handleRegister}
-                                                    className="text-white bg-[#1075bc] hover:bg-[#0c65a4] focus:ring-1 focus:ring-[#258bd2] font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                                                    Add to Card
+                                                    className="text-white font-kantumruyPro bg-[#1075bc] hover:bg-[#0c65a4] focus:ring-1 focus:ring-[#258bd2] font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                                    ចុះឈ្មោះចូលរៀន
                                                 </button>
                                             </div>
                                         </div>
