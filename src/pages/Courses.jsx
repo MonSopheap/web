@@ -3,11 +3,10 @@ import styles from '../Style'
 import { FaRegAddressCard } from 'react-icons/fa';
 import Footer from './Footer';
 import ButtonIcon from "../components/ButtonIcon"
+import ReactGA from "react-ga4";
 import { scss, html, angular, reactjs, python, flutter, photoshop, tailwind, php, laravel, javascript, nodejs } from "../assets/images"
-import useGAEventsTracker from '../hooks/useGAEventsTracker';
 
 function Courses() {
-    const GAEventsTracker = useGAEventsTracker("Internal Links");
     const courses = [
         {
             name: "HTML, CSS, Bootstrap",
@@ -99,7 +98,10 @@ function Courses() {
     ];
 
     const handleRegister = (e) => {
-        GAEventsTracker(e.target.innerText);
+        ReactGA.event({
+            category: "Button",
+            action: e.target.innerText
+        })
         window.open("https://t.me/abc");
     }
     return (

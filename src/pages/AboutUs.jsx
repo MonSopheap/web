@@ -1,11 +1,10 @@
 import React from 'react'
 import { FaRegAddressCard } from 'react-icons/fa'
 import ButtonIcon from '../components/ButtonIcon'
-import useGAEventsTracker from '../hooks/useGAEventsTracker';
 import Footer from './Footer'
+import ReactGA from "react-ga4";
 
 function AboutUs() {
-    const GAEventsTracker = useGAEventsTracker("External Links");
 
     const teamList = [
         {
@@ -36,7 +35,10 @@ function AboutUs() {
     ];
 
     const handleRegister = (e) => {
-        GAEventsTracker(e.target.innerText);
+        ReactGA.event({
+            category: "Button",
+            action: e.target.innerText
+        })
         window.open("https://t.me/abc");
     }
 

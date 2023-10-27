@@ -2,14 +2,12 @@ import React, { useState } from 'react'
 import { logo } from "../assets/images";
 import { useLocation, useNavigate } from 'react-router-dom';
 import styles, { layout } from '../Style';
-import useGAEventsTracker from '../hooks/useGAEventsTracker';
+import ReactGA from "react-ga4";
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
     const { pathname } = useLocation();
     const navigate = useNavigate()
-
-    const GAEventsTracker = useGAEventsTracker("External Links");
 
     const menuList = [
         {
@@ -35,8 +33,10 @@ function Navbar() {
     ];
 
     const handleLogin = (e) => {
-        console.log(e)
-        GAEventsTracker(e.target.innerText);
+        ReactGA.event({
+            category: "Button",
+            action: e.target.innerText
+        })
         window.open("https://t.me/abc");
     }
 

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import styles from "../Style";
 import { GiCheckMark } from 'react-icons/gi';
+import ReactGA from "react-ga4";
 
 const Pricing = () => {
     const [isYearly, setYearly] = useState(false);
@@ -48,7 +49,19 @@ const Pricing = () => {
                 { name: "សិក្សា PhotoShop Course" },
             ]
         },
-    ]
+    ];
+
+    const handleSubscribe = (e) => {
+        ReactGA.event({
+            category: "Button",
+            action: e.target.innerText
+        })
+        window.open("https://t.me/abc");
+    }
+
+
+
+
     return (
         <>
 
@@ -104,7 +117,7 @@ const Pricing = () => {
                                             }
                                         </ul>
 
-                                        <button type="button" onClick={() => window.open("https://t.me/abc")} className="flex m-auto font-kantumruyPro mt-5 px-4 py-2 rounded-md text-white bg-[#1075bc] hover:bg-[#0c65a4]">
+                                        <button type="button" onClick={handleSubscribe} className="flex m-auto font-kantumruyPro mt-5 px-4 py-2 rounded-md text-white bg-[#1075bc] hover:bg-[#0c65a4]">
                                             Subscribe
                                         </button>
                                     </div>
