@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/web/static/css/main.7b7e05a9.css",
-    "main.js": "/web/static/js/main.848d265f.js",
+    "main.js": "/web/static/js/main.8d04523e.js",
     "static/js/787.c6006e9a.chunk.js": "/web/static/js/787.c6006e9a.chunk.js",
     "static/media/tailwind.png": "/web/static/media/tailwind.f0f26047a8933b822dae.png",
     "static/media/photoshop.png": "/web/static/media/photoshop.904e9bfd02239c75819f.png",
@@ -9,6 +9,7 @@
     "static/media/angular.png": "/web/static/media/angular.850dffa220ddc0205d2d.png",
     "static/media/KantumruyPro-Regular.ttf": "/web/static/media/KantumruyPro-Regular.66693f623c897823fa1e.ttf",
     "static/media/scss.png": "/web/static/media/scss.7cdbf6b5889c42b3e490.png",
+    "static/media/netcore.png": "/web/static/media/netcore.ea0597403fe0e969e2e1.png",
     "static/media/python.png": "/web/static/media/python.6cd7959dfc13675ee994.png",
     "static/media/logo.png": "/web/static/media/logo.6378328b7dc38af5dca4.png",
     "static/media/laravel.png": "/web/static/media/laravel.13f44d9af3f388d7ca06.png",
@@ -23,11 +24,11 @@
     "static/media/linkedin.svg": "/web/static/media/linkedin.118c1b5e826b3fec5a303413266a78f8.svg",
     "static/media/facebook.svg": "/web/static/media/facebook.d7c0b4e9ce034fb8d8f719d7fbc5fd90.svg",
     "main.7b7e05a9.css.map": "/web/static/css/main.7b7e05a9.css.map",
-    "main.848d265f.js.map": "/web/static/js/main.848d265f.js.map",
+    "main.8d04523e.js.map": "/web/static/js/main.8d04523e.js.map",
     "787.c6006e9a.chunk.js.map": "/web/static/js/787.c6006e9a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7b7e05a9.css",
-    "static/js/main.848d265f.js"
+    "static/js/main.8d04523e.js"
   ]
 }
