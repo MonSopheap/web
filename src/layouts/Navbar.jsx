@@ -34,6 +34,11 @@ function Navbar() {
         },
     ];
 
+    const handleLogin = (event) => {
+        GAEventsTracker(event.target.innerText);
+        window.open("https://t.me/abc");
+    }
+
     return (
         <>
             <nav className={`${layout.navBar}`}>
@@ -59,7 +64,7 @@ function Navbar() {
                                 </div>
                             </div>
                             <div className="flex mr-2">
-                                <button type="button" onClick={(e) => GAEventsTracker(e.target.value)} className="flex m-auto font-kantumruyPro items-center px-4 py-2 rounded-md text-white bg-[#1075bc] hover:bg-[#0c65a4]">
+                                <button type="button" onClick={handleLogin} className="flex m-auto font-kantumruyPro items-center px-4 py-2 rounded-md text-white bg-[#1075bc] hover:bg-[#0c65a4]">
                                     ចូលគណនី
                                 </button>
 
