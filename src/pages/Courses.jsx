@@ -4,7 +4,21 @@ import { FaRegAddressCard } from 'react-icons/fa';
 import Footer from './Footer';
 import ButtonIcon from "../components/ButtonIcon"
 import ReactGA from "react-ga4";
-import { scss, html, angular, reactjs, python, flutter, photoshop, tailwind, php, laravel, javascript, nodejs } from "../assets/images"
+import {
+    scss,
+    html,
+    angular,
+    reactjs,
+    python,
+    flutter,
+    photoshop,
+    tailwind,
+    php,
+    laravel,
+    javascript,
+    nodejs,
+    netcore
+} from "../assets/images"
 
 function Courses() {
     const courses = [
@@ -57,7 +71,13 @@ function Courses() {
             price: "7.99",
             star: 5
         },
-
+        {
+            name: "ASP.net Core",
+            image: netcore,
+            description: "A cross-platform, high-performance, open-source framework for building modern, cloud-enabled, Internet-connected apps.",
+            price: "24.99",
+            star: 5
+        },
 
         {
             name: "Php",

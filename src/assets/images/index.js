@@ -16,6 +16,7 @@ import php from "./php.png";
 import laravel from "./laravel.png";
 import javascript from "./js.png";
 import nodejs from "./nodejs.png";
+import netcore from "./netcore.png";
 
 export {
   google,
@@ -36,4 +37,5 @@ export {
   laravel,
   javascript,
   nodejs,
+  netcore,
 };
