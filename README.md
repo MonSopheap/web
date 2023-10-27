@@ -80,24 +80,24 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 # REACT SNIPPETS
-- clg = console.log("Object")
-- rfce = Create Function and Import React
-- rpce = Create PureComponent and Import
-- rce = Create Component Render
-- rconst = Create constructor
+> clg = console.log("Object")
+> rfce = Create Function and Import React
+> rpce = Create PureComponent and Import
+> rce = Create Component Render
+> rconst = Create constructor
 
 ### PACKAGE IS INSTALLED
 # FOR HTTP REQUEST INSTALL
-- npm install axios
+npm install axios
 
 ### INSTALL ROUTE
-- npm install react-router-dom
+npm install react-router-dom
 
 # ICON REACT JS
-- npm install react-icons --save
+npm install react-icons --save
 
 # headlessui
-- npm i @headlessui/react
+npm i @headlessui/react
 
 # INSTALL TAILWIND CSS
 https://tailwindcss.com/docs/installation
@@ -105,20 +105,25 @@ https://tailwindcss.com/docs/installation
 npm install -D tailwindcss
 npx tailwindcss init
 
+# INSTALL GOOGLE ANALYTIC
+npm i react-ga4
+> https://www.npmjs.com/package/react-ga4
+
+
 # INSTALL SCSS, for Set style with scss
-- npm install node-sass
-- npm install node-sass --legacy-peer-deps
+npm install node-sass
+npm install node-sass --legacy-peer-deps
 
 # REACT FEATHER
-- npm i react-feather
-- https://www.npmjs.com/package/react-feather
-- https://feathericons.com/
+npm i react-feather
+> https://www.npmjs.com/package/react-feather
+> https://feathericons.com/
 
 # DEPLOY IN GITHUB
-- npm install gh-pages --save-dev
-- https://whataboutcoding.com/host-react-js-website-live-on-the-internet-using-github/
+npm install gh-pages --save-dev
+> https://whataboutcoding.com/host-react-js-website-live-on-the-internet-using-github/
 
 # REFRESH IN GITHUB PAGE NOT FOUND
-- Search: spa github page
-- https://github.com/rafgraph/spa-github-pages
-- https://www.youtube.com/watch?v=fuGu-Ponjf8
+> Search: spa github page
+> https://github.com/rafgraph/spa-github-pages
+> https://www.youtube.com/watch?v=fuGu-Ponjf8
