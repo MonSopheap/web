@@ -49,7 +49,7 @@ function AboutUs() {
                     {
                         teamList.map((team, i) => (
                             <div className="grid-item" key={i}>
-                                <div className="w-full h-full bg-secondary mx-auto p-5   text-center rounded-xl hover:ring-1 hover:ring-[#ffc401] select-none">
+                                <div className="w-full h-full bg-secondary mx-auto p-5  text-center rounded-xl hover:ring-1 hover:ring-[#ffc401] select-none">
                                     <div className="mb-6 text-center">
                                         <img className="object-center object-cover mx-auto rounded-full h-28 w-28 text-gray-500" src={team.image} alt="photo" />
                                     </div>
