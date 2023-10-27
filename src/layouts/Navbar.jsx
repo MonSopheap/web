@@ -2,11 +2,14 @@ import React, { useState } from 'react'
 import { logo } from "../assets/images";
 import { useLocation, useNavigate } from 'react-router-dom';
 import styles, { layout } from '../Style';
+import useGAEventsTracker from '../hooks/useGAEventsTracker';
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
     const { pathname } = useLocation();
     const navigate = useNavigate()
+
+    const GAEventsTracker = useGAEventsTracker("External Links");
 
     const menuList = [
         {
@@ -56,7 +59,7 @@ function Navbar() {
                                 </div>
                             </div>
                             <div className="flex mr-2">
-                                <button className="flex m-auto font-kantumruyPro items-center px-4 py-2 rounded-md text-white bg-[#1075bc] hover:bg-[#0c65a4]">
+                                <button type="button" onClick={(e) => GAEventsTracker(e.target.value)} className="flex m-auto font-kantumruyPro items-center px-4 py-2 rounded-md text-white bg-[#1075bc] hover:bg-[#0c65a4]">
                                     ចូលគណនី
                                 </button>
 

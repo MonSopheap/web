@@ -1,9 +1,12 @@
 import React from 'react'
 import { FaRegAddressCard } from 'react-icons/fa'
 import ButtonIcon from '../components/ButtonIcon'
+import useGAEventsTracker from '../hooks/useGAEventsTracker';
 import Footer from './Footer'
 
 function AboutUs() {
+    const GAEventsTracker = useGAEventsTracker("External Links");
+
     const teamList = [
         {
             name: "ដួង ស្រីលក្ខណ",
@@ -30,7 +33,14 @@ function AboutUs() {
             image: "https://t3.ftcdn.net/jpg/01/03/32/16/360_F_103321628_i1jlcaQGJ2FE432eDtDxDJTGbFJO73wf.jpg",
             position: "Web Developer"
         }
-    ]
+    ];
+
+    const handleRegister = (e) => {
+        GAEventsTracker(e.target.innerText);
+        window.open("https://t.me/abc");
+    }
+
+
     return (
         <>
             <div className="team text-center my-20 w-full">
@@ -39,7 +49,7 @@ function AboutUs() {
                     អភិវឌ្ឍការសរសេរកូដរបស់អ្នក ជាមួយពួកយើង!
                 </p>
                 <div className='m-auto pt-6'>
-                    <ButtonIcon text="ចុះឈ្មោះចូលរៀនឥឡូវនេះ" handleClick={() => window.open("https://t.me/abc")}>
+                    <ButtonIcon text="ចុះឈ្មោះចូលរៀនឥឡូវនេះ" handleClick={handleRegister}>
                         <FaRegAddressCard size={20} />
                     </ButtonIcon>
                 </div>

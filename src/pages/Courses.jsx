@@ -4,8 +4,10 @@ import { FaRegAddressCard } from 'react-icons/fa';
 import Footer from './Footer';
 import ButtonIcon from "../components/ButtonIcon"
 import { scss, html, angular, reactjs, python, flutter, photoshop, tailwind, php, laravel, javascript, nodejs } from "../assets/images"
+import useGAEventsTracker from '../hooks/useGAEventsTracker';
 
 function Courses() {
+    const GAEventsTracker = useGAEventsTracker("Internal Links");
     const courses = [
         {
             name: "HTML, CSS, Bootstrap",
@@ -94,7 +96,12 @@ function Courses() {
             star: 5
         },
 
-    ]
+    ];
+
+    const handleRegister = (e) => {
+        GAEventsTracker(e.target.innerText);
+        window.open("https://t.me/abc");
+    }
     return (
         <>
             <section>
@@ -162,9 +169,10 @@ function Courses() {
                                             </div>
                                             <div className="flex items-center justify-between">
                                                 <span className="text-3xl font-bold text-white">${item.price}</span>
-                                                <a href="#"
-                                                    className="text-white bg-[#1075bc] hover:bg-[#0c65a4] focus:ring-1 focus:ring-[#258bd2] font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Add
-                                                    to cart</a>
+                                                <button type="button" onClick={handleRegister}
+                                                    className="text-white bg-[#1075bc] hover:bg-[#0c65a4] focus:ring-1 focus:ring-[#258bd2] font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                                    Add to Card
+                                                </button>
                                             </div>
                                         </div>
                                     </div>

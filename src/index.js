@@ -5,12 +5,17 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import ReactGA from "react-ga4";
 
+// *********************************************************************
+// *********************************************************************
+const TRACKING_ID = "G-FNR7HYMET1";
 // Google Analytics
-ReactGA.initialize("G-FNR7HYMET1");
+ReactGA.initialize(TRACKING_ID);
 
 // Send pageview with a custom path
 ReactGA.send({ hitType: "pageview", page: window.location.pathname, title: "Custom Title" });
 
+// *********************************************************************
+// *********************************************************************
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

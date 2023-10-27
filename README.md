@@ -127,3 +127,6 @@ npm install gh-pages --save-dev
 > Search: spa github page
 > https://github.com/rafgraph/spa-github-pages
 > https://www.youtube.com/watch?v=fuGu-Ponjf8
+
+# DOCUMENT TITLE
+> https://devdojo.com/krissanawat101/3-ways-to-set-a-document-title-in-react
