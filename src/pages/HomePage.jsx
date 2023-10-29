@@ -5,10 +5,13 @@ import FAQ from './FAQ';
 import Footer from './Footer';
 import Testimonial from './Testimonial';
 import ButtonIcon from "../components/ButtonIcon"
+import HeroPage from './Hero';
 
 function HomePage() {
+
     return (
         <>
+            <HeroPage />
             <h1 className={`${styles.heading1} font-semibold`}>
                 សិក្សាពីមូលដ្ឋានគ្រឹះនៃការសរសេរកូដ ជាភាសាខ្មែរ
             </h1>

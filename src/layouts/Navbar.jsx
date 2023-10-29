@@ -3,11 +3,13 @@ import { logo } from "../assets/images";
 import { useLocation, useNavigate } from 'react-router-dom';
 import styles, { layout } from '../Style';
 import ReactGA from "react-ga4";
+import ModalMessage from '../components/Modal';
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
     const { pathname } = useLocation();
     const navigate = useNavigate()
+    const [isOpenModal, setOpenModal] = useState(false)
 
     const menuList = [
         {
@@ -65,9 +67,17 @@ function Navbar() {
                                 </div>
                             </div>
                             <div className="flex mr-2">
-                                <button type="button" onClick={handleLogin} className="flex m-auto font-kantumruyPro items-center px-4 py-2 rounded-md text-white bg-[#1075bc] hover:bg-[#0c65a4]">
+                                <button type="button" onClick={() => setOpenModal(true)} className="flex m-auto font-kantumruyPro items-center px-4 py-2 rounded-md text-white bg-[#1075bc] hover:bg-[#0c65a4]">
                                     ចូលគណនី
                                 </button>
+
+
+                                <ModalMessage open={isOpenModal} onClose={() => setOpenModal(false)}>
+                                    <div className="w-full h-full ">
+
+                                    </div>
+
+                                </ModalMessage>
 
                                 <button
                                     onClick={() => setIsOpen(!isOpen)}

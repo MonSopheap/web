@@ -1,10 +1,10 @@
-import { useState } from "react";
 import styles from "../Style";
 import { GiCheckMark } from 'react-icons/gi';
+import { PiStarFour } from 'react-icons/pi';
 import ReactGA from "react-ga4";
 
 const Pricing = () => {
-    const [isYearly, setYearly] = useState(false);
+    // const [isYearly, setYearly] = useState(false);
 
     const packages = [
         {
@@ -28,7 +28,7 @@ const Pricing = () => {
             isBestSeller: true,
             description: "សិក្សាបានរយៈពេល ៣ខែ",
             details: [
-                { name: "សរុបចូលគម្រោង $8.00" },
+                { name: "សរុបចូលគម្រោង $8.00", heading: true },
                 { name: "សិក្សា NodeJs Course" },
                 { name: "សិក្សា React Course" },
                 { name: "សិក្សា Angular Course" },
@@ -41,7 +41,7 @@ const Pricing = () => {
             isBestSeller: false,
             description: "សិក្សាបានរយៈពេល ១ឆ្នាំ",
             details: [
-                { name: "សរុបចូលគម្រោង $8.00 & $25.00" },
+                { name: "សរុបចូលគម្រោង $8.00 & $25.00", heading: true },
                 { name: "សិក្សា Flutter, Dart Course" },
                 { name: "សិក្សា Python Course" },
                 { name: "សិក្សា Php Course" },
@@ -109,9 +109,12 @@ const Pricing = () => {
                                         </div>
                                         <ul className="mt-5">
                                             {
-                                                data.details.map((x, i) => (
+                                                data.details.map((item, i) => (
                                                     <li key={i} className="flex justify-start p-2">
-                                                        <GiCheckMark className="text-green-500 text-md" /><span className="text-white font-kantumruyPro pl-2">{x.name}</span>
+                                                        {
+                                                            item?.heading ? <PiStarFour className="text-[#ffc403] text-md" /> : <GiCheckMark className="text-green-500 text-md" />
+                                                        }
+                                                        <span className={`text-white font-kantumruyPro pl-2 ${item?.heading && 'font-normal text-white'}`}>{item.name}</span>
                                                     </li>
                                                 ))
                                             }
