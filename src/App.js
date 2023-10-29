@@ -18,7 +18,7 @@ function App() {
       <BrowserRouter basename='/web'>
         <MainLayout>
           <Routes>
-            <Route path='' element={<HomePage />}></Route>
+            <Route path='/' element={<HomePage />}></Route>
             <Route path='courses' element={<Courses />}></Route>
             <Route path='about-us' element={<AboutUs />}></Route>
             <Route path='pricing' element={<Pricing />}></Route>

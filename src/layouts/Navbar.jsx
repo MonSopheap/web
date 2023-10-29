@@ -49,7 +49,7 @@ function Navbar() {
                     <div className={`${styles.boxWidth}`}>
                         <div className="flex justify-between items-center  h-16">
                             <div className="flex items-center">
-                                <div className="flex-shrink-0">
+                                <div className="flex-shrink-0 cursor-pointer" onClick={() => navigate("/")}>
                                     <img
                                         className="h-11 w-11"
                                         src={logo}
