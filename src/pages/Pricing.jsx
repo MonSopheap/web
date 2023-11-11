@@ -65,7 +65,7 @@ const Pricing = () => {
     return (
         <>
 
-            <div className="w-full mx-auto py-10">
+            <div className="w-full h-screen mx-auto py-10">
                 <div className="text-center">
                     <h2 className="md:text-5xl text-3xl font-semibold text-white mb-2">
                         The Ultimate Platform

@@ -56,7 +56,7 @@ function AboutUs() {
                     </ButtonIcon>
                 </div>
             </div>
-            <div className="py-15">
+            <div className="py-15 h-screen">
                 <div className="grid grid-cols-1 gap-8 sm:gap-5 md:gap-5 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
                     {
                         teamList.map((team, i) => (

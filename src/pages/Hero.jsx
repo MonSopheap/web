@@ -12,8 +12,8 @@ function HeroPage() {
             <section className="lg:h-[415px] py-12 relative">
                 <div className="h-full relative container">
                     <div className="py-5 h-full">
-                        <h1 className="text-2xl max-w-[700px] text-white font-kantumruyPro">{heroData.title}</h1>
-                        <p className="text-white max-w-[380px] text-[18px] font-kantumruyPro">{heroData.subtitle}</p>
+                        <h1 className="text-2xl max-w-[60%] text-white font-kantumruyPro">{heroData.title}</h1>
+                        <p className="text-white max-w-[60%] text-[18px] font-kantumruyPro">{heroData.subtitle}</p>
                         <button className="px-5 py-2 mt-5 m-auto font-kantumruyPro items-center rounded-md text-white bg-[#1075bc] hover:bg-[#0c65a4]">{heroData.btnText}</button>
                     </div>
                     <div className="lg:absolute lg:right-[50px] lg:top-0 xl:absolute xl:right-[50px] xl:top-0 mx-auto h-full overflow-hidden">
